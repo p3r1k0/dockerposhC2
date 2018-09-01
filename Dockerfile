@@ -32,8 +32,6 @@ RUN sed 's/HostnameIP = .*/HostnameIP = "https:\/\/192.168.1.X"'/ /opt/PoshC2_Py
 # creating tmuxinator config
 RUN echo "bmFtZTogbW9uaXRvcgpyb290OiB+LwoKd2luZG93czoKICAtIHBvc2hjMjoKICAgICBsYXlvdXQ6IG1haW5faG9yaXpvbnRhbAogICAgIHBhbmVzOgogICAgICAgIC0gcHl0aG9uIC9vcHQvUG9zaEMyX1B5dGhvbi9DMlZpZXdlci5weQogICAgICAgIC0gcHl0aG9uIC9vcHQvUG9zaEMyX1B5dGhvbi9JbXBsYW50SGFuZGxlci5weQogICAgICAgIC0gcHl0aG9uIC9vcHQvUG9zaEMyX1B5dGhvbi9DMlNlcnZlci5weQogICAgICAgIC0gL2Jpbi9iYXNo" | base64 --decode > /root/.config/tmuxinator/monitor.yml
 
-#CMD "/usr/local/bin/tmuxinator monitor"
-
 
 
 
